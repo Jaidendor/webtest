@@ -1,0 +1,12 @@
+.yateen{
+    font: 30px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}

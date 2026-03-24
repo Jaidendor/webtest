@@ -6,12 +6,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="index.html">home</a>
-<a href="#">link 2</a>
-<a href="ninaweird.html">Nina</a>
-<a href="#">link 4</a>
-<a href="#">link 5</a>
-<h1>hoi hoi</h1>
-<p>ik verveel mij nogal heel erg</p>
+<div id="nav-placeholder"></div>
+<main class="container">
+    <h1>hoi hoi</h1>
+    <p>ik verveel mij nogal heel erg</p>
+</main>
+<script>
+    fetch('nav.html')
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+        });
+</script>
 </body>
 </html>

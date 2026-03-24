@@ -4,9 +4,23 @@
 a{
     text-decoration: none;
     color: black;
-
+    padding: 20px
 }
 a:hover{
     color: blue;
     text-decoration: underline;
+    font: 80px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p:hover{
+    color: red;
+    font: 80px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    background-image: url('img/Yateen-mooi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
 }
